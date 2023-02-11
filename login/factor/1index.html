@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factor</title>
+    <link rel="stylesheet" href="1style.css">
+    <script src="1script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <p>Factor</p>
+    </header>
+    <article>
+        <div class="index_div">
+            <form method="dialog" action="#">
+                <div class="margin_top">
+                    <label for="mhl">نام محصول</label>
+                    <br>
+                    <input type="text" name="mhl" id="name">
+                </div>
+                <div class="margin_top">
+                    <label for="vazn">وزن</label>
+                    <br>
+                    <input type="text" name="vazn" id="no">
+                </div>
+                <div class="margin_top">
+                    <label for="Gheimat">قیمت کل</label>
+                    <br>
+                    <input type="text" name="Gheimat" id="value">
+                </div>
+                <br>
+                <input type="button" value="Add" onclick="add()">
+            </form>
+        </div>
+        <div id="result_s">
+            <div id="no1"></div>
+        </div>
+    </article>
+    <div id="edit_s">
+        <div class="margin_top">
+            <label class="edit" id="ed_1" for="ed_1">Name: </label>
+            <input type="text" class="edit" id="editing_1">
+        </div>
+        <div class="margin_top">
+            <label class="edit" id="ed_2" for="ed_2">Number: </label>
+            <input type="text" class="edit" id="editing_2">
+        </div>
+        <div class="margin_top">
+            <label class="edit" id="ed_3" for="ed_3">Price: </label>
+            <input type="text" class="edit" id="editing_3">
+        </div>
+        <br>
+        <div>
+            <button class="edit" id="OK" onclick="ok()">OK</button>
+            <button class="edit" id="CANCEL" onclick="cancel()">CANCEL</button>
+        </div>
+    </div>
+</body>
+</html>
