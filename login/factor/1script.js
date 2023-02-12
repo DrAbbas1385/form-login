@@ -6,6 +6,7 @@ let t = []
 let aaaa;
 let iii;
 
+
 function div_on_result() {
     let s = document.getElementById("no1");
     s.className = "show";
@@ -22,6 +23,7 @@ function add() {
     const not = document.getElementById("no").value;
     const valuet = document.getElementById("value").value;
     const tt = +not * +valuet;
+
 
     document.getElementById("name").value = "";
     document.getElementById("no").value = "";
@@ -52,6 +54,7 @@ function ok_or_not_del(input) {
         del(aaaa);
     }
 }
+
 
 function del(index) {
     let table = "";
@@ -162,6 +165,7 @@ function box_hid_edit() {
     const ed_3 = document.getElementById("ed_3");
     const ok = document.getElementById("OK");
     const cancel = document.getElementById("CANCEL");
+
 
     edit_1.className = "hid"
     edit_2.className = "hid"
