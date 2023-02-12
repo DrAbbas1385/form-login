@@ -3,8 +3,8 @@ let nameR = []
 let no = []
 let value = []
 let t = []
+let aaaa;
 let iii;
-let aaa;
 
 function div_on_result() {
     let s = document.getElementById("no1");
@@ -44,12 +44,12 @@ function add() {
 
 function ok_or_not_del(input) {
     let ok_or_no = window.confirm("ایا مطمئنی؟")
-    aaa = +input;
+    aaaa = +input;
     if (ok_or_no == false) {
         window.alert("کنسل");
     }
     else {
-        del(aaa);
+        del(aaaa);
     }
 }
 
@@ -102,9 +102,9 @@ function ok() {
     const number_edit = document.getElementById("editing_2").value;
     const price_edit = document.getElementById("editing_3").value;
 
-    let ok = window.confirm("OK???");
+    let ok = window.confirm("مطمئنی؟!");
     if (ok == false) {
-        window.alert("Canceled!!");
+        window.alert("کنسله");
     }
     else {
         document.getElementById("editing_1").value = "";
